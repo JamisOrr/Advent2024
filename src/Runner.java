@@ -1,11 +1,9 @@
+import DailyFiles.*;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
-
-import DailyFiles.*;
 
 public class Runner {
 
@@ -56,6 +54,18 @@ public class Runner {
                 case 103:
                     System.out.println("Part 2:");
                     System.out.println(Advent3.challenge2(readData(choice)));
+                    break;
+                case 4:
+                    System.out.println("Part 1:");
+                    System.out.println(Advent4.challenge1(readData(choice)));
+                    System.out.println("Do you want to see the part 2? Y/n");
+                    goOn = scan.nextLine();
+                    if (goOn.equals("n")) {
+                        break;
+                    }
+                case 104:
+                    System.out.println("Part 2:");
+                    System.out.println(Advent4.challenge2(readData(choice)));
                     break;
                     
             }
