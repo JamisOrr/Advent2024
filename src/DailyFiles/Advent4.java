@@ -97,6 +97,7 @@ public class Advent4 {
                         sum++;
                     }
                 } catch (Exception e) {
+                    continue;
                 }
                 //S . M
                 //. A .

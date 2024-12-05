@@ -9,7 +9,6 @@ public class Advent1 {
         ArrayList<Integer> right = new ArrayList<>();
         for (String line : data) {
             left.add(Integer.parseInt(line.split(" ")[0]));
-            // System.out.println(line.split(" ")[0]);
             right.add(Integer.parseInt(line.split(" ")[3]));
         }
         left.sort(null);
@@ -26,7 +25,6 @@ public class Advent1 {
         ArrayList<Integer> right = new ArrayList<>();
         for (String line : data) {
             left.add(Integer.parseInt(line.split(" ")[0]));
-            // System.out.println(line.split(" ")[0]);
             right.add(Integer.parseInt(line.split(" ")[3]));
         }
         right.sort(null);
