@@ -79,6 +79,30 @@ public class Runner {
                     System.out.println("Part 2:");
                     System.out.println(Advent5.challenge2(readData(choice)));
                     break;
+                case 6:
+                    System.out.println("Part 1:");
+                    System.out.println(Advent6.challenge1(readData(choice)));
+                    System.out.println("Do you want to see the part 2? Y/n");
+                    goOn = scan.nextLine();
+                    if (goOn.equals("n")) {
+                        break;
+                    }
+                case 106:
+                    System.out.println("Part 2:");
+                    System.out.println(Advent6.challenge2(readData(choice)));
+                    break;
+                case 7:
+                    System.out.println("Part 1:");
+                    System.out.println(Advent7.challenge1(readData(choice)));
+                    System.out.println("Do you want to see the part 2? Y/n");
+                    goOn = scan.nextLine();
+                    if (goOn.equals("n")) {
+                        break;
+                    }
+                case 107:
+                    System.out.println("Part 2:");
+                    System.out.println(Advent7.challenge2(readData(choice)));
+                    break;
                     
             }
         }

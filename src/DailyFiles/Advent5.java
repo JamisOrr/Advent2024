@@ -38,7 +38,6 @@ public class Advent5 {
             if (line.contains("|")) {
                 rules.add(new String[] {line.substring(0, line.indexOf("|")), line.substring(line.indexOf("|") + 1)});
             } else {
-                boolean good = true;
                 for (String[] rule : rules) {
                     if (line.contains(rule[0]) && line.contains(rule[1])) {
                         if (line.indexOf(rule[0]) > line.indexOf(rule[1])) {
